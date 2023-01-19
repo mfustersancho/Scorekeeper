@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btn_minus_team_1"
+            style="@style/MinusButton" />
+
+        <TextView
+            android:id="@+id/txt_team_1"
+            android:text="@string/team_1"
+            style="@style/TeamText" />
+
+        <TextView
+            android:id="@+id/txt_score_team_1"
+            android:text="0"
+            style="@style/ScoreText" />
+
+        <ImageButton
+            android:id="@+id/btn_plus_team_1"
+            style="@style/PlusButton"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btn_minus_team_2"
+            style="@style/MinusButton" />
+
+        <TextView
+            android:id="@+id/txt_team_2"
+            android:text="@string/team_2"
+            style="@style/TeamText" />
+
+        <TextView
+            android:id="@+id/txt_score_team_2"
+            android:text="0"
+            style="@style/ScoreText" />
+
+        <ImageButton
+            android:id="@+id/btn_plus_team_2"
+            style="@style/PlusButton" />
+    </RelativeLayout>
+</LinearLayout>
